@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainblog{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blog {
+  background-color: #fff;
+  padding: 16px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin: 15px;
+}
+
+
+a.addblog{
+  background-color: teal;
+  margin-top: 40px;
+  display: block;
+  width: 200px;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+  border-radius: 0px;
+  margin-left: 250px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.maiicon{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.maiicon button{
+text-decoration: none;
+margin-right:  20px;
+font-size: 35px;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+
+.maiicon button:first-child{
+  color: green;
+}
+
+.maiicon button:last-child{
+  color: red;
+  
+}
+
+.blog h1 a{
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #000;
+  padding: 20px 0px;
+  text-decoration: none;
+  
+}
+
+.blog p {
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #000;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+
+.blog h6 a{
+  font-size: 22px;
+  line-height: 35px;
+  color: #000;
+}
+
+.link{
+  height: 100vh;
+  place-items: center;
+  display: grid;
+}
+
+
+.link  h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  width: 100%;
+  padding: 60px;
+  justify-content: space-between;
+  background-color: #000;
+}
+
+header ul li  {
+  list-style: none;
+}
+ul li a{
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mainblog{
+  margin-top: 120px;
+}
+
+
+.mainblog-data{
+  padding: 25px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 30px;
+  max-width: calc(90% - 50px);
+  display: block;
+  margin: 100px auto;
+}
+
+.mainblog-data h1{
+  color: #000;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
+}
+
+.mainblog-data p {
+  font-size: 20px;
+  color: #000;
+  line-height: 25px;
+
+}
+
+
+h6{
+  font-size: 30px;
+  line-height: 36px;
+  padding-top:40px ;
+}
+
+
+a.red{
+  color: red;
+}
+
+a.blue{
+  color: blue;
+}
+
+a.active{
+  color: red;
+}
